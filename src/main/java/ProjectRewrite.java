@@ -1,6 +1,6 @@
 public class ProjectRewrite {
     public static void main(String[] args) {
-        System.out.println(multiply(0, 5));
+        System.out.println(multiply(-3, 5));
     }
 
     private static int min(int x, int y) {
@@ -55,8 +55,12 @@ public class ProjectRewrite {
     }
 
     private static int pow(int x, int y) {
-        return 0;
-    }
+        int pow = 1;
 
+        for (int i = 0; i < y; i++) {
+            pow = pow * x;
+        }
+        return pow;
+    }
     private static int[] divmod(int x, int y) { return new int[0]; }
 }
