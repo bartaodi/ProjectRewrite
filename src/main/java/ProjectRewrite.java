@@ -54,7 +54,9 @@ public class ProjectRewrite {
         return isNegative ? -result : result;
     }
 
-    private static int pow(int x, int y) { return 0; }
+    private static int pow(int x, int y) {
+        return 0;
+    }
 
     private static int[] divmod(int x, int y) { return new int[0]; }
 }
